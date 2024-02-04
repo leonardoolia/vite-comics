@@ -3,11 +3,11 @@
 </script>
 
 <template>
-    <div class="container">Content goes here</div>
+    <div>Content goes here</div>
 </template>
 
 <style lang="scss" scoped>
-div.container {
+div {
     color: white;
     background-color: #1c1c1c;
     min-height: 50px;
