@@ -24,6 +24,7 @@ div {
     justify-content: space-around;
     align-items: center;
     background-color: #303030;
+    position: relative;
 
     button {
         padding: 10px;
