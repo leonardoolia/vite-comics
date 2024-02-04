@@ -69,22 +69,19 @@ div.bg {
 div.container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
 
-    div.logo {
-        padding-top: 3rem;
-
-        img {
-            height: 80%;
-        }
-    }
+div.logo img {
+    height: 50%;
 }
 
 div.links {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    padding-top: 3rem;
     color: white;
+    flex-basis: 60%;
 
     a {
         color: white;
@@ -93,6 +90,7 @@ div.links {
     h4 {
         font-weight: bold;
         font-size: 1.5rem;
+        margin-bottom: 10px;
     }
 
     ul {
