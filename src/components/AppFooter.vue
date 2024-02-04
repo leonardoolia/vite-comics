@@ -1,6 +1,17 @@
-<script></script>
+<script>
+import FooterTop from './FooterTop.vue';
+import FooterBot from './FooterBot.vue';
+
+export default {
+    name: 'AppFooter',
+    components: { FooterTop, FooterBot }
+}
+</script>
 
 
-<template></template>
+<template>
+    <FooterTop />
+    <FooterBot />
+</template>
 
-<style></style>
+<style lang="scss" scoped></style>
