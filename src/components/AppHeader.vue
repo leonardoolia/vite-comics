@@ -13,7 +13,7 @@ export default {
         <img src="@/assets/img/dc-logo.png" alt="Logo dc">
 
         <ul>
-            <li v-for="(section, i) in sections" :key="i">{{ section.text }}</li>
+            <li v-for="(section, i) in sections" :key="i"><a href="#">{{ section.text }}</a></li>
         </ul>
     </div>
 </template>
