@@ -57,6 +57,29 @@ export default {
         url: '#',
         current: false,
       },
+    ],
+
+    mainList: [
+      {
+        img: '@/assets/img/buy-comics-digital-comics.png',
+        text: 'DIGITAL COMICS'
+      },
+      {
+        img: '@/assets/img/buy-comics-merchandise.png',
+        text: 'DC MERCHANDISE'
+      },
+      {
+        img: '@/assets/img/buy-comics-subscriptions.png',
+        text: 'SUBSCRIPTION'
+      },
+      {
+        img: '@/assets/img/buy-comics-shop-locator.png',
+        text: 'COMIC SHOP LOCATOR'
+      },
+      {
+        img: '@/assets/img/buy-dc-power-visa.svg',
+        text: 'DC POWER VISA'
+      }
     ]
 
   }),

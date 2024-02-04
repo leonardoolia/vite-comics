@@ -1,6 +1,17 @@
-<script></script>
+<script>
+import MainTop from './MainTop.vue';
+import MainBot from './MainBot.vue';
+
+export default {
+    name: 'AppMain',
+    components: { MainTop, MainBot }
+}
+</script>
 
 
-<template></template>
+<template>
+    <MainTop />
+    <MainBot />
+</template>
 
-<style></style>
+<style lang="scss" scoped></style>
