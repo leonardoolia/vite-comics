@@ -6,7 +6,7 @@ import AppFooter from './components/AppFooter.vue';
 export default {
   name: 'DCComics',
   data: () => ({
-    items: [
+    sections: [
       {
         text: 'Characters',
         url: '#',
@@ -66,9 +66,41 @@ export default {
 </script>
 
 <template>
-  <AppHeader />
+  <AppHeader :sections="sections" />
   <AppMain />
   <AppFooter />
 </template>
 
-<style></style>
+<style>
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Generics */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  min-height: 100vh;
+}
+
+/* Utils */
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+</style>
