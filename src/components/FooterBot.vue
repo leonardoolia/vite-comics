@@ -1,7 +1,7 @@
 <script></script>
 
 <template>
-    <div>
+    <div class="footer-bot">
         <button>SIGN-UP NOW!</button>
 
         <div class="footer-social">
@@ -18,13 +18,12 @@
 </template>
 
 <style lang="scss" scoped>
-div {
+div.footer-bot {
     padding: 1rem 0 1rem 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #303030;
-    position: relative;
 
     button {
         padding: 10px;
