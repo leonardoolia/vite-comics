@@ -15,8 +15,17 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-img {
-    width: 100px;
-    height: auto;
+.product-card {
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    text-align: center;
+
+
+    img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+
+    }
 }
 </style>
