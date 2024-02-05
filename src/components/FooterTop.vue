@@ -1,7 +1,7 @@
 <script></script>
 
 <template>
-    <div class="bg">
+    <footer>
         <div class="container">
             <div class="links">
                 <div>
@@ -56,11 +56,11 @@
                 <img src="@/assets/img/dc-logo-bg.png" alt="Logo DC">
             </div>
         </div>
-    </div>
+    </footer>
 </template>
 
 <style lang="scss" scoped>
-div.bg {
+footer {
     background-image: url('@/assets/img/footer-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -70,10 +70,6 @@ div.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-div.logo img {
-    height: 50%;
 }
 
 div.links {
