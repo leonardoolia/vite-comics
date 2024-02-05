@@ -1,8 +1,24 @@
-<script></script>
+<script>
+export default {
+    name: 'MainBot',
+    props: {
+        img: String,
+        text: String,
+    },
+    computed: {
+        ImagePath() {
+            const path = new URL(`../assets/img/${this.img}`, import.meta.url);
+            return path.href;
+        }
+    }
+}
+</script>
 
 <template>
     <ul>
-        <li></li>
+        <li>
+            <img :src="ImagePath" :alt="text">
+        </li>
     </ul>
 </template>
 
