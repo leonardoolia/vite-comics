@@ -8,14 +8,14 @@ export default {
     props: {
         imgBot: String,
         textBot: String,
-        serie: Array,
+        products: Array,
     }
 }
 </script>
 
 
 <template>
-    <MainTop :serie="serie" />
+    <MainTop :products="products" />
     <MainBot :img="imgBot" :text="textBot" />
 </template>
 

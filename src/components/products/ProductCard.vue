@@ -2,16 +2,21 @@
 export default {
     name: 'ProductCard',
     props: {
-        serie: Object
+        product: Object
     }
 }
 </script>
 
 <template>
     <div class="product-card">
-        <img :src="serie.thumb" :alt="serie.series">
-        <h4>{{ sere.series }}</h4>
+        <img :src="product.thumb" :alt="product.series">
+        <h4>{{ product.series }}</h4>
     </div>
 </template>
 
-<style></style>
+<style lang="scss" scoped>
+img {
+    width: 100px;
+    height: auto;
+}
+</style>

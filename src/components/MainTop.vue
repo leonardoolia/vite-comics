@@ -3,7 +3,7 @@ import ProductCard from './products/ProductCard.vue';
 export default {
     name: 'MainTop',
     props: {
-        serie: Array
+        products: Array
     },
     components: { ProductCard }
 }
@@ -13,7 +13,7 @@ export default {
     <main>
         <section id="series">
             <div class="container card-container">
-                <ProductCard v-for="(serie, i) in series" :key="i" :serie="serie" />
+                <ProductCard v-for="(product, i) in products" :key="i" :product="product" />
             </div>
         </section>
     </main>
