@@ -177,7 +177,7 @@ export default {
 
 <template>
   <AppHeader :sections="sections" />
-  <AppMain :imgBot="mainList[0].img" :textBot="mainList[0].text" />
+  <AppMain :imgBot="mainList[0].img" :textBot="mainList[0].text" :serie="series" />
   <AppFooter />
 </template>
 
